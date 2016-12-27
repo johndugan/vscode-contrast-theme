@@ -1,6 +1,6 @@
 # Contrast Theme for VSCode
 
-I wrote Contrast a couple years for Sublime. I waited to port it to VSCode for reasons [detailed in my blog post](https://john-dugan.com/contrast-theme/). The grammars in VSCode are still signifcantly lacking, but I _really_ like the editor. Almost all of my gripes (save grammars) have been resolved. As VSCode continues to improve language grammars, I will improve Contrast.
+I wrote Contrast a couple years ago for Sublime. I waited to port it to VSCode for reasons [detailed in my blog post](https://john-dugan.com/contrast-theme/). The grammars in VSCode are still signifcantly lacking, but I _really_ like the editor. Almost all of my gripes (save grammars) have been resolved. As VSCode continues to improve language grammars, I will improve Contrast.
 
 ## Well Supported Languages
 
