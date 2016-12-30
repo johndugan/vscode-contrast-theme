@@ -494,6 +494,17 @@
         </dict>
         <dict>
             <key>name</key>
+            <string>Keyframes</string>
+            <key>scope</key>
+            <string>at-rule.keyframes</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#F8F8F2</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
             <string>Sass Operator</string>
             <key>scope</key>
             <string>keyword.operator.scss</string>
