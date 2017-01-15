@@ -764,6 +764,17 @@
         </dict>
         <dict>
             <key>name</key>
+            <string>Template String Expression Punctuation</string>
+            <key>scope</key>
+            <string>braces.curly.substitution</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#D77676</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
             <string>Embedded JSX Curly Braces</string>
             <key>scope</key>
             <string>punctuation.section.embedded.begin.jsx, punctuation.section.embedded.end.jsx</string>
