@@ -1,0 +1,14 @@
+// https://code.visualstudio.com/docs/getstarted/theme-color-reference
+{
+
+// Contrast Colors
+
+    "workbench.colorCustomizations": {
+        "contrastBorder": "#000000"
+    },
+
+// Base Colors
+
+
+
+}
