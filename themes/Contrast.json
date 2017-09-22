@@ -1,0 +1,455 @@
+{
+    "name": "Contrast Theme",
+    "type": "dark",
+    "author": "johndugan",
+    "colors": {
+        "editor.foreground": "#F8F8F2",
+        "editor.background": "#191919"
+    },
+    "tokenColors": [
+
+        // @todo:
+        // support.constant
+        // support.module
+
+// Global
+
+        {
+            "name": "Comment",
+            "scope": [
+                "comment"
+            ],
+            "settings": {
+                "foreground": "#6D6D6D"
+            }
+        },
+        {
+            "name": "String",
+            "scope": [
+                "string.quoted"
+            ],
+            "settings": {
+                "foreground": "#FBDFB5"
+            }
+        },
+        {
+            "name": "Number",
+            "scope": [
+                "constant.numeric"
+            ],
+            "settings": {
+                "foreground": "#D0D0D0"
+            }
+        },
+        {
+            "name": "Language Constant (`true`, `false, `null`, etc.)",
+            "scope": [
+                "constant.language"
+            ],
+            "settings": {
+                "foreground": "#D77676"
+            }
+        },
+        {
+            "name": "Operator (`+`, `-`, `!`, `typeof`, `instanceof`, etc.)",
+            "scope": [
+                "keyword.operator"
+            ],
+            "settings": {
+                "foreground": "#FF5E5E"
+            }
+        },
+        {
+            "name": "Control Flow (`if`, `else`, `switch`, `return`, etc.)",
+            "scope": [
+                "keyword.control"
+            ],
+            "settings": {
+                "foreground": "#FF5E5E"
+            }
+        },
+        {
+            "name": "Storage Type (`function`, `class`, `int`, `bool`, etc.)",
+            "scope": [
+                "storage.type"
+            ],
+            "settings": {
+                "foreground": "#FBDFB5",
+                "fontStyle": "italic"
+            }
+        },
+        {
+            "name": "Storage Modifier (`public`, `private`, `static`, etc.)",
+            "scope": [
+                "storage.modifier"
+            ],
+            "settings": {
+                "foreground": "#FBDFB5",
+                "fontStyle": "italic"
+            }
+        },
+        {
+            "name": "Language Variable (`this`, `self`, `super`, etc.)",
+            "scope": [
+                "variable.language"
+            ],
+            "settings": {
+                "foreground": "#E9FDAC"
+            }
+        },
+        {
+            "name": "Language Method/Function (`setTimeout`, `printf`, etc.)",
+            "scope": [
+                "support.function"
+            ],
+            "settings": {
+                "foreground": "#C9E9E0"
+            }
+        },
+        {
+            "name": "Separator & Terminator Punctuation (`,`,`:`,`;`)",
+            "scope": [
+                "punctuation.separator",
+                "punctuation.terminator"
+            ],
+            "settings": {
+                "foreground": "#D0D0D0"
+            }
+        },
+        {
+            "name": "Regex Contents",
+            "scope": [
+                "string.regexp",
+                "string.regexp keyword.control"
+            ],
+            "settings": {
+                "foreground": "#A9B9B0" // @todo: update foreground
+            }
+        },
+        {
+            "name": "Regex Container Punctuation",
+            "scope": [
+                "string.regexp punctuation.definition.string"
+            ],
+            "settings": {
+                "foreground": "#A9B9B0"
+            }
+        },
+        {
+            "name": "Regex Mode (`igm`)",
+            "scope": [
+                "string.regexp keyword.other"
+            ],
+            "settings": {
+                "foreground": "#FF5E5E"
+            }
+        },
+        {
+            "name": "Function/Method Name (`function myFunc()`)",
+            "scope": [
+                "entity.name.function"
+            ],
+            "settings": {
+                "foreground": "#8CDAFF"
+            }
+        },
+        {
+            "name": "Function/Method Name Invoked (`myFunc()`)",
+            "scope": [
+                "variable.function"
+            ],
+            "settings": {
+                "foreground": "#C9E9E0"
+            }
+        },
+        {
+            "name": "Function/Method Parens ",
+            "scope": [
+                "punctuation.definition.parameters",
+                "punctuation.definition.arguments"
+            ],
+            "settings": {
+                "foreground": "#C9E9E0"
+            }
+        },
+
+        {
+            "name": "Function/Method Parameter (`function getFullName(fname, lname`)",
+            "scope": [
+                "variable.parameter"
+            ],
+            "settings": {
+                "foreground": "#D0D0D0",
+                "fontStyle": "italic"
+            }
+        },
+        {
+            "name": "Class Name (`class Target_Class extends Base_Class`)",
+            "scope": [
+                "entity.name.type.class",
+                "entity.other.inherited-class"
+            ],
+            "settings": {
+                "foreground": "#B8FCB1"
+            }
+        },
+
+// HTML/XML
+
+        {
+            "name": "Doctype Declaration",
+            "scope": [
+                "meta.tag.sgml",
+                "meta.tag.sgml variable",
+                "meta.tag.sgml punctuation.definition.tag"
+            ],
+            "settings": {
+                "foreground": "#FFCC32"
+            }
+        },
+        {
+            "name": "XML Preprocessor",
+            "scope": [
+                "meta.tag.preprocessor",
+                "meta.tag.preprocessor entity.name.tag",
+                "meta.tag.preprocessor punctuation.definition.tag"
+            ],
+            "settings": {
+                "foreground": "#FFCC32"
+            }
+        },
+        {
+            "name": "Tag Name",
+            "scope": [
+                "entity.name.tag"
+            ],
+            "settings": {
+                "foreground": "#FF5E5E"
+            }
+        },
+        {
+            "name": "Tag Brackets",
+            "scope": [
+                "punctuation.definition.tag"
+            ],
+            "settings": {
+                "foreground": "#D0D0D0"
+            }
+        },
+        {
+            "name": "Attribute Name",
+            "scope": [
+                "entity.other.attribute-name"
+            ],
+            "settings": {
+                "foreground": "#8CDAFF"
+            }
+        },
+        {
+            "name": "Script Tag Name & Brackets",
+            "scope": [
+                "meta.tag.metadata.script entity.name.tag",
+                "meta.tag.metadata.script punctuation.definition.tag"
+            ],
+            "settings": {
+                "foreground": "#B8FCB1"
+            }
+        },
+
+// CSS/Sass
+
+        {
+            "name": "Property Name",
+            "scope": [
+                "support.type.property-name"
+            ],
+            "settings": {
+                "foreground": "#F8F8F2"
+            }
+        },
+        {
+            "name": "Property Value",
+            "scope": [
+                "meta.property-value"
+            ],
+            "settings": {
+                "foreground": "#FBDFB5"
+            }
+        },
+        {
+            "name": "Selector Braces (`{}`)",
+            "scope": [
+                "punctuation.section"
+            ],
+            "settings": {
+                "foreground": "#D0D0D0"
+            }
+        },
+        {
+            "name": "Variable (`--my-var`, `$my-var`)",
+            "scope": [
+                "variable.css",
+                "variable.scss"
+            ],
+            "settings": {
+                "foreground": "#FFE082"
+            }
+        },
+        {
+            "name": "Selector Punctuation (`#`, `.`, `:`, `::`, `[]`)",
+            "scope": [
+                "punctuation.definition.entity",
+                "punctuation.definition.attribute-selector" // Attribute selector brackets in Sass (`[]`)
+            ],
+            "settings": {
+                "foreground": "#8CDAFF"
+            }
+        },
+        {
+            "name": "Attribute Selector String Value", // temporary hack
+            "scope": [
+                "meta.attribute-selector"
+            ],
+            "settings": {
+                "foreground": "#FBDFB5"
+            }
+        },
+        {
+            "name": "At Rule (`@mixin`, `@import`, etc.)",
+            "scope": [
+                "keyword.control.at-rule",
+                "keyword.control.at-rule punctuation"
+            ],
+            "settings": {
+                "foreground": "#FBDFB5",
+                "fontStyle": "italic"
+            }
+        },
+        {
+            "name": "At Rule Function Name",
+            "scope": [
+                "meta.at-rule support.function"
+            ],
+            "settings": {
+                "foreground": "#8CDAFF"
+            }
+        },
+        {
+            "name": "At Rule Function Parameter (`@mixin icon($name)`)",
+            "scope": [
+                "meta.at-rule.mixin variable.scss",
+                "meta.at-rule.function variable.scss"
+            ],
+            "settings": {
+                "foreground": "#D0D0D0",
+                "fontStyle": "italic"
+            }
+        },
+        {
+            "name": "At Rule Default Parameter Value (`@mixin icon($name, $position: left)`)",
+            "scope": [
+                "meta.at-rule.mixin support.constant",
+                "meta.at-rule.mixin variable.parameter",
+                "meta.at-rule.function support.constant",
+                "meta.at-rule.function variable.parameter"
+            ],
+            "settings": {
+                "foreground": "#FBDFB5",
+                "fontStyle": "italic"
+            }
+        },
+        {
+            "name": "At Rule Default Parameter Numeric Value (`@function pxToRem($number, $base: 14)`)",
+            "scope": [
+                "meta.at-rule.mixin constant.numeric",
+                "meta.at-rule.function constant.numeric"
+            ],
+            "settings": {
+                "fontStyle": "italic"
+            }
+        },
+        {
+            "name": "Include At Rule (`@include`)",
+            "scope": [
+                "keyword.control.at-rule.include",
+                "keyword.control.at-rule.include punctuation"
+            ],
+            "settings": {
+                "foreground": "#FF5E5E",
+                "fontStyle": "normal"
+            }
+        },
+        {
+            "name": "Function At Rule Parens (`@function fn()`)",
+            "scope": [
+                "meta.at-rule.function punctuation.section"
+            ],
+            "settings": {
+                "foreground": "#C9E9E0"
+            }
+        },
+        {
+            "name": "Return At Rule (`@return #{$number / 14}rem`)",
+            "scope": [
+                "meta.at-rule.return" // in the example above this would target `rem`
+            ],
+            "settings": {
+                "foreground": "#D0D0D0"
+            }
+        },
+        {
+            "name": "Return At Rule Braces (`@return $value / ($value * 100)`)",
+            "scope": [
+                "meta.at-rule.return punctuation.definition.begin.bracket",
+                "meta.at-rule.return punctuation.definition.end.bracket"
+            ],
+            "settings": {
+                "foreground": "#D0D0D0"
+            }
+        },
+        {
+            "name": "Function Invoked (`@include btn('primary')`, `color: darken($blue)`)",
+            "scope": [
+                "meta.at-rule.include entity.name.function",
+                "meta.at-rule.include punctuation",
+                "meta.property-value punctuation.section.function"
+            ],
+            "settings": {
+                "foreground": "#C9E9E0"
+            }
+        },
+        {
+            "name": "Sass Interpolation Braces (`#{}`)",
+            "scope": [
+                "punctuation.definition.interpolation"
+            ],
+            "settings": {
+                "foreground": "#D77676"
+            }
+        },
+        {
+            "name": "Sass Map Braces (`()`)",
+            "scope": [
+                "punctuation.definition.map"
+            ],
+            "settings": {
+                "foreground": "#D77676"
+            }
+        },
+
+// Markdown
+
+        {
+            "name": "Headings (`# My Heading`)",
+            "scope": [
+                "entity.name.section"
+            ],
+            "settings": {
+                "foreground": "#8CDAFF"
+            }
+        },
+
+
+        {}
+    ]
+}
