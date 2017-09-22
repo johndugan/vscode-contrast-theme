@@ -555,6 +555,15 @@
                 "foreground": "#D77676"
             }
         },
+        {
+            "name": "JSON Property Name Quotes",
+            "scope": [
+                "punctuation.support.type.property-name"
+            ],
+            "settings": {
+                "foreground": "#D0D0D0CC"
+            }
+        },
 
 // PHP
 
