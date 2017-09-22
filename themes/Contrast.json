@@ -120,10 +120,11 @@
             "name": "Regex Contents",
             "scope": [
                 "string.regexp",
-                "string.regexp keyword.control"
+                "string.regexp keyword.control",
+                "string.regexp keyword.operator"
             ],
             "settings": {
-                "foreground": "#A9B9B0" // @todo: update foreground
+                "foreground": "#FBDFB5"
             }
         },
         {
@@ -145,7 +146,7 @@
             }
         },
         {
-            "name": "Function/Method Name (`function myFunc()`)",
+            "name": "Function/Method Name (`function myFunc`)",
             "scope": [
                 "entity.name.function"
             ],
@@ -154,16 +155,7 @@
             }
         },
         {
-            "name": "Function/Method Name Invoked (`myFunc()`)",
-            "scope": [
-                "variable.function"
-            ],
-            "settings": {
-                "foreground": "#C9E9E0"
-            }
-        },
-        {
-            "name": "Function/Method Parens ",
+            "name": "Function/Method Parens (`function myFunc()`)",
             "scope": [
                 "punctuation.definition.parameters",
                 "punctuation.definition.arguments"
@@ -172,7 +164,6 @@
                 "foreground": "#C9E9E0"
             }
         },
-
         {
             "name": "Function/Method Parameter (`function getFullName(fname, lname`)",
             "scope": [
@@ -184,23 +175,35 @@
             }
         },
         {
+            "name": "Function/Method Name Invoked (`myFunc()`)",
+            "scope": [
+                "variable.function",
+                "meta.function-call entity.name.function",
+                "meta.method-call entity.name.function"
+            ],
+            "settings": {
+                "foreground": "#C9E9E0"
+            }
+        },
+        {
             "name": "Class Name (`class Target_Class extends Base_Class`)",
             "scope": [
                 "entity.name.type.class",
-                "entity.other.inherited-class"
+                "entity.other.inherited-class",
+                "support.class"
             ],
             "settings": {
                 "foreground": "#B8FCB1"
             }
         },
 
-// HTML/XML
+// HTML & XML
 
         {
-            "name": "Doctype Declaration",
+            "name": "Doctype Declaration (`<!DOCTYPE html>`)",
             "scope": [
                 "meta.tag.sgml",
-                "meta.tag.sgml variable",
+                "meta.tag.sgml variable.language",
                 "meta.tag.sgml punctuation.definition.tag"
             ],
             "settings": {
@@ -208,7 +211,7 @@
             }
         },
         {
-            "name": "XML Preprocessor",
+            "name": "XML Preprocessor (`<?xml ... ?>`)",
             "scope": [
                 "meta.tag.preprocessor",
                 "meta.tag.preprocessor entity.name.tag",
@@ -246,7 +249,7 @@
             }
         },
         {
-            "name": "Script Tag Name & Brackets",
+            "name": "Script Tag Name & Brackets (`<script></script>`)",
             "scope": [
                 "meta.tag.metadata.script entity.name.tag",
                 "meta.tag.metadata.script punctuation.definition.tag"
@@ -256,7 +259,7 @@
             }
         },
 
-// CSS/Sass
+// CSS & Sass
 
         {
             "name": "Property Name",
@@ -437,19 +440,260 @@
             }
         },
 
-// Markdown
+// JavaScript & JSON
 
         {
-            "name": "Headings (`# My Heading`)",
+            "name": "Curly Braces (`{...}`)",
             "scope": [
-                "entity.name.section"
+                "punctuation.definition.block",
+                "punctuation.definition.dictionary" // JSON
+            ],
+            "settings": {
+                "foreground": "#A9B9B0"
+            }
+        },
+        {
+            "name": "Square Braces (`[...]`)",
+            "scope": [
+                "meta.brace.square",
+                "punctuation.definition.array" // JSON
+            ],
+            "settings": {
+                "foreground": "#D77676"
+            }
+        },
+        {
+            "name": "Round Braces/Parens (`(...)`)",
+            "scope": [
+                "meta.brace.round"
+            ],
+            "settings": {
+                "foreground": "#C9E9E0"
+            }
+        },
+        {
+            "name": "Accessor Operator (`.`)",
+            "scope": [
+                "punctuation.accessor"
+            ],
+            "settings": {
+                "foreground": "#FF5E5E"
+            }
+        },
+        {
+            "name": "DOM Object (`document`, `window`)",
+            "scope": [
+                "support.variable.dom"
+            ],
+            "settings": {
+                "foreground": "#FFE082"
+            }
+        },
+        {
+            "name": "Prototype Object (`Func.prototype`)",
+            "scope": [
+                "support.variable.property.js"
+            ],
+            "settings": {
+                "foreground": "#E9FDAC"
+            }
+        },
+        {
+            "name": "Constructor Function Name (`Number`, `String`, etc.)",
+            "scope": [
+                "support.class.js",
+                "support.class.builtin.js"
             ],
             "settings": {
                 "foreground": "#8CDAFF"
             }
         },
+        {
+            "name": "Constructor Function Name Invoked (`Number()`, `String()`, etc.)",
+            "scope": [
+                "meta.function-call support.class.builtin.js",
+                "new.expr entity.name.type.js"
+            ],
+            "settings": {
+                "foreground": "#C9E9E0"
+            }
+        },
+        {
+            "name": "Constructor Function Name Prototype Read/Write (`Func.prototype = {...}`)",
+            "scope": [
+                "support.class.js"
+            ],
+            "settings": {
+                "foreground": "#F8F8F2"
+            }
+        },
+        {
+            "name": "Template String (``my template string``)",
+            "scope": [
+                "string.template.js",
+                "punctuation.definition.string.template"
+            ],
+            "settings": {
+                "foreground": "#FBDFB5"
+            }
+        },
+        {
+            "name": "Template String Expression (``${MODULE}``)",
+            "scope": [
+                "meta.template.expression"
+            ],
+            "settings": {
+                "foreground": "#F8F8F2"
+            }
+        },
+        {
+            "name": "Template String Expression Punctuation (``${...}``)",
+            "scope": [
+                "punctuation.definition.template-expression"
+            ],
+            "settings": {
+                "foreground": "#D77676"
+            }
+        },
 
+// PHP
 
-        {}
+        {
+            "name": "Embedded PHP Tags (`<?php ... ?>` in .phtml file)",
+            "scope": [
+                "punctuation.section.embedded"
+            ],
+            "settings": {
+                "foreground": "#A9B9B0"
+            }
+        },
+        {
+            "name": "Round Braces/Parens (`(...)`)",
+            "scope": [
+                "punctuation.definition.begin.bracket.round",
+                "punctuation.definition.end.bracket.round"
+            ],
+            "settings": {
+                "foreground": "#C9E9E0"
+            }
+        },
+        {
+            "name": "Function/Method Parameter (`function getFullName($fname, $lname`)",
+            "scope": [
+                "meta.function.parameter"
+            ],
+            "settings": {
+                "foreground": "#D0D0D0",
+                "fontStyle": "italic"
+            }
+        },
+        {
+            "name": "Array Brackets",
+            "scope": [
+                "punctuation.section.array"
+            ],
+            "settings": {
+                "foreground": "#D77676"
+            }
+        },
+        {
+            "name": "New Operator (`$obj = new My_Class`)",
+            "scope": [
+                "keyword.other.new"
+            ],
+            "settings": {
+                "foreground": "#FF5E5E"
+            }
+        },
+
+// SQL
+
+        {
+            "name": "Operator (`SELECT`, `FROM`, `GROUP BY`, etc.)",
+            "scope": [
+                "keyword.other.sql",
+                "keyword.other.DML.sql",
+                "keyword.other.alias.sql"
+            ],
+            "settings": {
+                "foreground": "#FF5E5E"
+            }
+        },
+        {
+            "name": "Language Constate (`NULL`)",
+            "scope": [
+                "keyword.other.DDL.create.II.sql"
+            ],
+            "settings": {
+                "foreground": "#D77676"
+            }
+        },
+
+// Markdown
+
+        {
+            "name": "Headings (`# My Heading`)",
+            "scope": [
+                "entity.name.section",
+                "punctuation.definition.heading"
+            ],
+            "settings": {
+                "foreground": "#8CDAFF"
+            }
+        },
+        {
+            "name": "Beginning Markup (`1.`, `-`, `>`, etc.)",
+            "scope": [
+                "markup beginning.punctuation"
+            ],
+            "settings": {
+                "foreground": "#FF5E5E"
+            }
+        },
+        {
+            "name": "Inline Markup (`*`, `**`, `_`, etc.)",
+            "scope": [
+                "markup punctuation"
+            ],
+            "settings": {
+                "foreground": "#FFCC32"
+            }
+        },
+        {
+            "name": "Link",
+            "scope": [
+                "string.other.link"
+            ],
+            "settings": {
+                "foreground": "#FBDFB5"
+            }
+        },
+        {
+            "name": "Link href",
+            "scope": [
+                "markup.underline.link"
+            ],
+            "settings": {
+                "foreground": "#A9B9B0"
+            }
+        },
+        {
+            "name": "Link Container Punctuation (`[...](...)`)",
+            "scope": [
+                "meta.link punctuation"
+            ],
+            "settings": {
+                "foreground": "#C9E9E0"
+            }
+        },
+        {
+            "name": "Code Block (```)",
+            "scope": [
+                "markup.fenced_code punctuation"
+            ],
+            "settings": {
+                "foreground": "#B8FCB1"
+            }
+        }
     ]
 }
