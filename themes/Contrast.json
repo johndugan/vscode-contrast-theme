@@ -4,7 +4,59 @@
     "author": "johndugan",
     "colors": {
         "editor.foreground": "#F8F8F2",
-        "editor.background": "#191919"
+        "editor.background": "#191919",
+
+    // Base Colors
+
+        "focusBorder": "#D0D0D0CC",
+        // "foreground": "#D0D0D080",
+        // "errorForeground": "#FF0000",
+        "errorForeground": "#FF2727",
+
+    // Button Control
+
+        "button.foreground": "#FFFFFF",
+        "button.background": "#00A4F3",
+        "button.hoverBackground": "#00A4F3",
+
+    // Dropdown Control
+
+        "dropdown.border": "#5D5D5D80",
+
+    // Input Control
+
+        "input.border": "#5D5D5D80",
+        "inputOption.activeBorder": "#D0D0D0CC",
+
+    // Lists and Trees
+
+        "list.activeSelectionForeground": "#F8F8F2",
+        "list.activeSelectionBackground": "#FF40C1",
+        "list.inactiveSelectionForeground": "#F8F8F2",
+        "list.inactiveSelectionBackground": "#FF40C1",
+
+    // Activity Bar
+
+        "activityBar.foreground": "#D0D0D0",
+        "activityBar.background": "#191919",
+        "activityBarBadge.foreground": "#191919",
+        "activityBarBadge.background": "#F8F8F2",
+
+    // Side Bar
+
+        "sideBar.foreground": "#8C8C8A",
+        "sideBar.background": "#292928",
+        "sideBarSectionHeader.foreground": "#B2B2B1",
+        "sideBarSectionHeader.background": "#3D3D3C",
+
+    // Status Bar
+
+        "statusBar.foreground": "#878787",
+        "statusBar.background": "#191919",
+        "statusBar.noFolderForeground": "#878787",
+        "statusBar.noFolderBackground": "#191919",
+        "statusBarItem.hoverBackground": "#0B0B0B",
+        "statusBarItem.activeBackground": "#000000"
     },
     "tokenColors": [
 
