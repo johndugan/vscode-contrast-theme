@@ -776,7 +776,7 @@
                 "markup punctuation"
             ],
             "settings": {
-                "foreground": "#FFCC32"
+                "foreground": "#B2B2B1"
             }
         },
         {
@@ -785,7 +785,7 @@
                 "string.other.link"
             ],
             "settings": {
-                "foreground": "#FBDFB5"
+                "foreground": "#C9E9E0"
             }
         },
         {
@@ -794,7 +794,7 @@
                 "markup.underline.link"
             ],
             "settings": {
-                "foreground": "#A9B9B0"
+                "foreground": "#6D6D6D"
             }
         },
         {
@@ -803,7 +803,7 @@
                 "meta.link punctuation"
             ],
             "settings": {
-                "foreground": "#C9E9E0"
+                "foreground": "#B2B2B1"
             }
         },
         {
