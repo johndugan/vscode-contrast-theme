@@ -17,11 +17,11 @@
 
     // Dropdown Control
 
-        "dropdown.border": "#5D5D5D80",
+        "dropdown.border": "#50504F",
 
     // Input Control
 
-        "input.border": "#5D5D5D80",
+        "input.border": "#50504F",
         "inputOption.activeBorder": "#B2B2B1",
 
     // Lists and Trees
@@ -610,6 +610,15 @@
             }
         },
         {
+            "name": "Console Object (`Func.prototype`)",
+            "scope": [
+                "support.class.console"
+            ],
+            "settings": {
+                "foreground": "#FFE082"
+            }
+        },
+        {
             "name": "Constructor Function Name (`Number`, `String`, etc.)",
             "scope": [
                 "support.class.js",
@@ -758,7 +767,7 @@
                 "punctuation.definition.heading"
             ],
             "settings": {
-                "foreground": "#8CDAFF"
+                "foreground": "#FFE082"
             }
         },
         {
@@ -798,9 +807,27 @@
             }
         },
         {
+            "name": "Link & Image Title",
+            "scope": [
+                "string.other.link.description.title"
+            ],
+            "settings": {
+                "foreground": "#D0D0D0"
+            }
+        },
+        {
             "name": "Link Container Punctuation (`[...](...)`)",
             "scope": [
                 "meta.link punctuation"
+            ],
+            "settings": {
+                "foreground": "#B2B2B1"
+            }
+        },
+        {
+            "name": "Image Container Punctuation (`![...](...)`)",
+            "scope": [
+                "meta.image punctuation"
             ],
             "settings": {
                 "foreground": "#B2B2B1"
