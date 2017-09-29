@@ -2,7 +2,7 @@
     "name": "contrast-theme",
     "displayName": "Contrast Theme",
     "description": "Contrast Theme for VSCode",
-    "version": "0.0.1",
+    "version": "1.0.0",
     "publisher": "johndugan",
     "license": "SEE LICENSE IN LICENSE.md",
     "engines": {

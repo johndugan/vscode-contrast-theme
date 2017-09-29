@@ -1,8 +1,14 @@
 # Contrast Theme for VSCode
 
-I wrote Contrast a couple years ago for Sublime. I waited to port it to VSCode for reasons [detailed in my blog post](https://john-dugan.com/contrast-theme/). The grammars in VSCode are still signifcantly lacking, but I _really_ like the editor. Almost [all of my gripes](https://john-dugan.com/visual-studio-code-vs-sublime-text/) (save grammars) have been resolved. As VSCode continues to improve language grammars, I will improve Contrast.
+[![Version](https://vsmarketplacebadge.apphb.com/version-short/johndugan.contrast-theme.svg)](https://marketplace.visualstudio.com/items?itemName=johndugan.contrast-theme) [![Installs](https://vsmarketplacebadge.apphb.com/installs/johndugan.contrast-theme.svg)](https://marketplace.visualstudio.com/items?itemName=johndugan.contrast-theme)
+
+I originally wrote Contrast in 2015 for Sublime Text. I based it off the popular [1337 theme](https://colorsublime.github.io/themes/1337/). When I ported it to VSCode in December of 2016, the language grammers were poor. Since then, the VSCode team has made tons of progress. And because of that, so has Contrast :-).
+
+If you enjoy the theme, I'd appreciate you sharing it and/or giving it a positive rating!
 
 ## Well Supported Languages
+
+I'm a frontend developer. The languages that I work with below have been meticulously scoped/tokenized/defined in Contrast. Other languages should work just fine too. Contrast significantly exceeds the minimum [scope coverage recommendation](https://www.sublimetext.com/docs/3/scope_naming.html#color_schemes).
 
 - HTML
 - CSS
@@ -11,8 +17,11 @@ I wrote Contrast a couple years ago for Sublime. I waited to port it to VSCode f
 - PHP
 - JSON
 - XML
+- Markdown
 
-Contrast **requires** the [Sublime Babel Extension](https://marketplace.visualstudio.com/items?itemName=joshpeng.sublime-babel-vscode) published by Josh Peng, which masks VSCode's craptastic JavaScript grammar. I will absolutely remove this dependency when the JavaScript grammar that ships with VSCode is sufficient.
+## Issues and Improvements
+
+I plan to make some tweaks for React and JSX in the near future. If you find noteable issues or inconsistencies, please get in touch on GitHub.
 
 ## Code in Contrast
 
@@ -24,10 +33,22 @@ Contrast **requires** the [Sublime Babel Extension](https://marketplace.visualst
 
 ![Screenshot of Sass in Contrast](images/sass_01.png?raw=true "Sass in Contrast")
 
+![Screenshot of Sass in Contrast](images/sass_02.png?raw=true "Sass in Contrast")
+
 ### JavaScript
 
 ![Screenshot of JavaScript in Contrast](images/javascript_01.png?raw=true "JavaScript in Contrast")
 
+![Screenshot of JavaScript in Contrast](images/javascript_02.png?raw=true "JavaScript in Contrast")
+
 ### PHP
 
 ![Screenshot of PHP in Contrast](images/php_01.png?raw=true "PHP in Contrast")
+
+### JSON
+
+![Screenshot of HTML in Contrast](images/json_01.png?raw=true "HTML in Contrast")
+
+### XML
+
+![Screenshot of HTML in Contrast](images/xml_01.png?raw=true "HTML in Contrast")
