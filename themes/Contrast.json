@@ -108,6 +108,11 @@
         "editorGutter.addedBackground": "#00F3C9",
         "editorGutter.deletedBackground": "#F3002B",
 
+    // Diff Editor Colors
+
+        "diffEditor.insertedTextBackground": "#00A78A40",
+        "diffEditor.removedTextBackground": "#A7001D40",
+
     // Status Bar
 
         "statusBar.foreground": "#878787",
@@ -592,9 +597,11 @@
             }
         },
         {
-            "name": "DOM Object (`document`, `window`)",
+            "name": "Environment Objects (`document`, `window`, `console`, `module`)",
             "scope": [
-                "support.variable.dom"
+                "support.variable.dom",
+                "support.class.console",
+                "support.type.object"
             ],
             "settings": {
                 "foreground": "#FFE082"
@@ -607,15 +614,6 @@
             ],
             "settings": {
                 "foreground": "#E9FDAC"
-            }
-        },
-        {
-            "name": "Console Object (`Func.prototype`)",
-            "scope": [
-                "support.class.console"
-            ],
-            "settings": {
-                "foreground": "#FFE082"
             }
         },
         {
