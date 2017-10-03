@@ -113,10 +113,30 @@
         "diffEditor.insertedTextBackground": "#00A78A40",
         "diffEditor.removedTextBackground": "#A7001D40",
 
+    // Editor Widget Colors
+
+        "editorWidget.background": "#292928",
+        "editorWidget.border": "#3D3D3C",
+        "editorSuggestWidget.foreground": "#D0D0D0",
+        "editorSuggestWidget.border": "#292928",
+        "editorSuggestWidget.highlightForeground": "#F8F8F2",
+        "editorSuggestWidget.selectedBackground": "#3D3D3C",
+        "editorHoverWidget.background": "#3D3D3C",
+        "editorHoverWidget.border": "#3D3D3C",
+
+        "debugExceptionWidget.background": "#F3002B",
+        "debugExceptionWidget.border": "#F3002B",
+
+        "editorMarkerNavigation.background": "#1F1F1E",
+        "editorMarkerNavigationError.background": "#F3002B",
+        "editorMarkerNavigationWarning.background": "#F3C900",
+
     // Status Bar
 
         "statusBar.foreground": "#878787",
         "statusBar.background": "#191919",
+        "statusBar.debuggingForeground": "#F8F8F2",
+        "statusBar.debuggingBackground": "#F34F00",
         "statusBar.noFolderForeground": "#878787",
         "statusBar.noFolderBackground": "#191919",
         "statusBarItem.hoverBackground": "#0B0B0B",
@@ -170,6 +190,16 @@
             "name": "Operator (`+`, `-`, `!`, `typeof`, `instanceof`, etc.)",
             "scope": [
                 "keyword.operator"
+            ],
+            "settings": {
+                "foreground": "#FF5E5E"
+            }
+        },
+        {
+            "name": "Destructuring Punctuation (`[...] = [...]`, `{...} = {...}`)",
+            "scope": [
+                "punctuation.definition.binding-pattern",
+                "meta.import punctuation.definition.block"
             ],
             "settings": {
                 "foreground": "#FF5E5E"
@@ -277,17 +307,26 @@
                 "punctuation.definition.arguments"
             ],
             "settings": {
-                "foreground": "#C9E9E0"
+                "foreground": "#C9E9E0",
+                "fontStyle": "normal"
             }
         },
         {
-            "name": "Function/Method Parameter (`function getFullName(fname, lname`)",
+            "name": "Function/Method Parameters (`function getFullName(fname = 'John', lname = 'Doe'`)",
+            "scope": [
+                "meta.parameters"
+            ],
+            "settings": {
+                "fontStyle": "italic"
+            }
+        },
+        {
+            "name": "Function/Method Parameter Name (`function getFullName(fname, lname`)",
             "scope": [
                 "variable.parameter"
             ],
             "settings": {
-                "foreground": "#D0D0D0",
-                "fontStyle": "italic"
+                "foreground": "#D0D0D0"
             }
         },
         {
