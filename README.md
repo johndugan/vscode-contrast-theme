@@ -21,7 +21,7 @@ I'm a frontend developer. The languages that I work with below have been meticul
 
 ## Issues and Improvements
 
-I plan to make some tweaks for React and JSX in the near future. If you find issues or inconsistencies, please get in touch on GitHub.
+I am still working on theme colors for a few sections of the editor. If you find other issues or inconsistencies, please get in touch on GitHub.
 
 ## Code in Contrast
 
