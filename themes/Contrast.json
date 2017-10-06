@@ -103,6 +103,7 @@
 
         "editorError.foreground": "#F3002B",
         "editorWarning.foreground": "#F3C900",
+        "editorInfo.foreground": "#00F3C9",
 
         "editorGutter.modifiedBackground": "#F3C900",
         "editorGutter.addedBackground": "#00F3C9",
