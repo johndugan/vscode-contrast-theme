@@ -780,6 +780,15 @@
             }
         },
         {
+            "name": "Embedded Variables (`<img src='<?php echo $src; ?>'/>`)",
+            "scope": [
+                "variable.other.php"
+            ],
+            "settings": {
+                "foreground": "#F8F8F2"
+            }
+        },
+        {
             "name": "Function/Method Parameter (`function getFullName($fname, $lname`)",
             "scope": [
                 "meta.function.parameter"
