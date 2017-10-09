@@ -85,7 +85,7 @@
         "editorWhitespace.foreground": "#333332",
         "editorIndentGuide.background": "#333332",
         "editorRuler.foreground": "#333332",
-        "editorCodeLens.foreground": "", // ??
+        "editorCodeLens.foreground": "#6D6D6D",
         "editorBracketMatch.background": "#333332",
         "editorBracketMatch.border": "#50504F",
 
@@ -99,7 +99,7 @@
         "editorOverviewRuler.deletedForeground": "#F3002B",
         "editorOverviewRuler.errorForeground": "#F3002B",
         "editorOverviewRuler.warningForeground": "#F3C900",
-        "editorOverviewRuler.infoForeground": "", // ??
+        "editorOverviewRuler.infoForeground": "#00F3C9",
 
         "editorError.foreground": "#F3002B",
         "editorWarning.foreground": "#F3C900",
@@ -146,6 +146,15 @@
         "peekViewTitle.background": "#00A4F3",
         "peekViewTitleDescription.foreground": "#FFFFFF",
         "peekViewTitleLabel.foreground": "#FFFFFF",
+
+    // Merge Conflicts
+
+        "merge.currentHeaderBackground": "#007460",
+        "merge.currentContentBackground": "#0074604D",
+        "merge.incomingHeaderBackground": "#0070A7",
+        "merge.incomingContentBackground": "#0070A74D",
+        "editorOverviewRuler.currentContentForeground": "#00F3C9",
+        "editorOverviewRuler.incomingContentForeground": "#00A4F3",
 
     // Status Bar
 
