@@ -156,6 +156,14 @@
         "editorOverviewRuler.currentContentForeground": "#00F3C9",
         "editorOverviewRuler.incomingContentForeground": "#00A4F3",
 
+    // Panel Colors
+
+        "panel.background": "#191919",
+        "panel.border": "#3D3D3C",
+        "panelTitle.activeBorder": "#00A4F3",
+        "panelTitle.activeForeground": "#FFFFFF",
+        "panelTitle.inactiveForeground": "#8C8C8A",
+
     // Status Bar
 
         "statusBar.foreground": "#878787",
