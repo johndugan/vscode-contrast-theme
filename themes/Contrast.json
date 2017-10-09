@@ -189,6 +189,12 @@
         "notification.errorBackground": "#F3002B",
         "notification.errorForeground": "#42000C",
 
+    // Extensions
+
+    "extensionButton.prominentForeground": "#FFFFFF",
+    "extensionButton.prominentBackground": "#00A4F3",
+    "extensionButton.prominentHoverBackground": "#0093DA",
+
     // Welcome Page
 
         "welcomePage.buttonBackground": "#292928",
