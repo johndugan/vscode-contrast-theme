@@ -4,7 +4,7 @@
 
 I originally wrote Contrast in 2015 for Sublime Text. I based it off the popular [1337 theme](https://colorsublime.github.io/themes/1337/). When I ported it to VSCode in December of 2016, the language grammers were poor. Since then, the VSCode team has made tons of progress. And because of that, so has Contrast :-).
 
-If you enjoy the theme, I'd appreciate you sharing it and/or giving it a positive rating!
+If you enjoy the theme, **I'd appreciate you sharing it and/or giving it a positive rating!**
 
 ## Well Supported Languages
 
@@ -21,9 +21,19 @@ I'm a frontend developer. The languages that I work with below have been meticul
 
 ## Issues and Improvements
 
-I am still working on theme colors for a few sections of the editor. If you find other issues or inconsistencies, please get in touch on GitHub.
+If you find issues/inconsistencies or have ideas to improve Contrast, please get in touch on GitHub or [ping me on Twitter](https://twitter.com/John_Dugan "John Dugan's Twitter profile").
 
-## Code in Contrast
+## Font Recommendation
+
+Use whatever font you fancy. I fancy [Source Code Pro](https://fonts.google.com/specimen/Source+Code+Pro "Source Code Pro on Google Fonts").
+
+## Colors in Contrast
+
+![Screenshot of editor color swatch in Contrast](images/swatch_colors.png?raw=true "Editor color swatch in Contrast")
+
+![Screenshot of editor gray color swatch in Contrast](images/swatch_grays.png?raw=true "Editor gray color swatch in Contrast")
+
+![Screenshot of editor black color swatch in Contrast](images/swatch_blacks.png?raw=true "Editor black color swatch in Contrast")
 
 ### HTML
 
