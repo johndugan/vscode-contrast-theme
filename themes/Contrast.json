@@ -191,9 +191,18 @@
 
     // Extensions
 
-    "extensionButton.prominentForeground": "#FFFFFF",
-    "extensionButton.prominentBackground": "#00A4F3",
-    "extensionButton.prominentHoverBackground": "#0093DA",
+        "extensionButton.prominentForeground": "#FFFFFF",
+        "extensionButton.prominentBackground": "#00A4F3",
+        "extensionButton.prominentHoverBackground": "#0093DA",
+
+    // Quick Picker
+
+        "pickerGroup.border": "#50504F",
+        "pickerGroup.foreground": "#8C8C8A",
+
+    // Debug
+
+        "debugToolBar.background": "#3D3D3C",
 
     // Welcome Page
 
