@@ -9,6 +9,11 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) a
 ## [1.0.6] - 2017-10-10
 
 ### Changed
+- Tweak logo/icon colors
+
+## [1.0.6] - 2017-10-10
+
+### Changed
 - Update editor range highlight colors
 
 ## [1.0.5] - 2017-10-09
