@@ -75,13 +75,13 @@
 
         "editor.findMatchBackground": "#DA0093",
         "editor.findMatchHighlightBackground": "#8E005F",
-        "editor.findRangeHighlightBackground": "", // ??
+        "editor.findRangeHighlightBackground": "#50504F4D",
 
         "editor.hoverHighlightBackground": "#333332",
         "editor.lineHighlightBackground": "#1F1F1E",
         "editor.lineHighlightBorder": "#292928",
         "editorLink.activeForeground": "#8C8C8A",
-        "editor.rangeHighlightBackground": "#333332",
+        "editor.rangeHighlightBackground": "#50504F4D",
         "editorWhitespace.foreground": "#333332",
         "editorIndentGuide.background": "#333332",
         "editorRuler.foreground": "#333332",
@@ -90,7 +90,7 @@
         "editorBracketMatch.border": "#50504F",
 
         "editorOverviewRuler.findMatchForeground": "#DA0093",
-        "editorOverviewRuler.rangeHighlightForeground": "", // ??
+        "editorOverviewRuler.rangeHighlightForeground": "#50504F",
         "editorOverviewRuler.selectionHighlightForeground": "#8C8C8A",
         "editorOverviewRuler.wordHighlightForeground": "#8C8C8A",
         "editorOverviewRuler.wordHighlightStrongForeground": "#DA0093",
