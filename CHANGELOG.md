@@ -6,6 +6,11 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) a
 
 ## [Unreleased]
 
+## [1.0.4] - 2017-10-09
+
+### Changed
+- Reimplmeneted theme name (mistakenly removed in 1.0.3)
+
 ## [1.0.3] - 2017-10-09
 
 ### Added
