@@ -6,6 +6,16 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) a
 
 ## [Unreleased]
 
+## [1.0.3] - 2017-10-09
+
+### Added
+- Editor Merge Conflicts color customizations
+- Editor Panel color customizations
+- Editor Extensions color customizations
+- Editor Quick Picker color customizations
+- Editor Debug color customizations
+- Embedded PHP variables color
+
 ## [1.0.2] - 2017-10-05
 
 ### Added

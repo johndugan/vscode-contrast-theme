@@ -1,8 +1,8 @@
-# Contrast Theme for VSCode
+# Contrast Theme for VS Code
 
 [![Version](https://vsmarketplacebadge.apphb.com/version-short/johndugan.contrast-theme.svg)](https://marketplace.visualstudio.com/items?itemName=johndugan.contrast-theme) [![Installs](https://vsmarketplacebadge.apphb.com/installs/johndugan.contrast-theme.svg)](https://marketplace.visualstudio.com/items?itemName=johndugan.contrast-theme)
 
-I originally wrote Contrast in 2015 for Sublime Text. I based it off the popular [1337 theme](https://colorsublime.github.io/themes/1337/). When I ported it to VSCode in December of 2016, the language grammers were poor. Since then, the VSCode team has made tons of progress. And because of that, so has Contrast :-).
+I originally wrote Contrast in 2015 for Sublime Text. I based it off the popular [1337 theme](https://colorsublime.github.io/themes/1337/). When I ported it to VS Code in December of 2016, the language grammers were poor. Since then, the VS Code team has made tons of progress. And because of that, so has Contrast :-).
 
 If you enjoy the theme, **I'd appreciate you sharing it and/or giving it a positive rating!**
 
