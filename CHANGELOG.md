@@ -6,6 +6,11 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) a
 
 ## [Unreleased]
 
+## [1.0.5] - 2017-10-09
+
+### Changed
+- Fix swatch_colors.png screenshot
+
 ## [1.0.4] - 2017-10-09
 
 ### Changed

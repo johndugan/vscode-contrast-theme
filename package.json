@@ -1,8 +1,8 @@
 {
     "name": "contrast-theme",
     "displayName": "Contrast Theme",
-    "description": "Blissful editing for VS Code.",
-    "version": "1.0.4",
+    "description": "Blissful editing for VS Code",
+    "version": "1.0.5",
     "publisher": "johndugan",
     "license": "SEE LICENSE IN LICENSE.md",
     "engines": {
