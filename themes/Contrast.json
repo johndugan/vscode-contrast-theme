@@ -33,6 +33,7 @@
         "list.hoverBackground": "#191919",
         "list.focusBackground": "#191919",
         "list.dropBackground": "#333332",
+        "list.highlightForeground": "#F8F8F2",
 
     // Activity Bar
 
