@@ -208,7 +208,15 @@
 
         "welcomePage.buttonBackground": "#292928",
         "welcomePage.buttonHoverBackground": "#0B0B0B",
-        "walkThrough.embeddedEditorBackground": "#0B0B0B"
+        "walkThrough.embeddedEditorBackground": "#0B0B0B",
+
+    // Git Colors
+
+        "gitDecoration.modifiedResourceForeground": "#F3C900",
+        "gitDecoration.deletedResourceForeground": "#F3002B",
+        "gitDecoration.untrackedResourceForeground": "#00F3C9",
+        "gitDecoration.ignoredResourceForeground": "#8C8C8A",
+        "gitDecoration.conflictingResourceForeground": "#FF41C1"
 
     },
     "tokenColors": [
