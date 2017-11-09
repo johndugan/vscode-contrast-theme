@@ -6,7 +6,13 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) a
 
 ## [Unreleased]
 
-## [1.0.6] - 2017-10-10
+## [1.0.8] - 2017-11-09
+
+### Added
+- Git color customizations
+- `list.highlightForeground` color
+
+## [1.0.7] - 2017-10-10
 
 ### Changed
 - Tweak logo/icon colors
