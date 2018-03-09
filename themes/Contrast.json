@@ -179,6 +179,14 @@
 
     // Notification Dialog
 
+        "notificationCenterHeader.foreground": "#B2B2B1",
+        "notificationCenterHeader.background": "#3D3D3C",
+        "notifications.foreground": "#F8F8F2",
+        "notifications.background": "#292928",
+        "notifications.border": "#3D3D3C",
+        "notificationLink.foreground": "#00A4F3",
+
+        // Deprecated Notification Properties in v1.21
         "notification.background": "#3D3D3C",
         "notification.foreground": "#F8F8F2",
         "notification.buttonForeground": "#FFFFFF",
