@@ -685,6 +685,17 @@
 // JavaScript & JSON
 
         {
+            "name": "Block Comment",
+            "scope": [
+                "comment storage.type",
+                "comment punctuation.definition.block"
+            ],
+            "settings": {
+                "foreground": "#6D6D6D",
+                "fontStyle": "normal"
+            }
+        },
+        {
             "name": "Curly Braces (`{...}`)",
             "scope": [
                 "punctuation.definition.block",

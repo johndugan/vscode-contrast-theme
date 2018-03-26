@@ -6,15 +6,20 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) a
 
 ## [Unreleased]
 
+## [1.1.1] - 2018-03-26
+
+### Added
+- Resolve block comment color bug in JavaScript
+
 ## [1.1.0] - 2018-03-09
 
 ### Added
-`notificationCenterHeader.foreground` color
-`notificationCenterHeader.background` color
-`notifications.foreground` color
-`notifications.background` color
-`notifications.border` color
-`notificationLink.foreground` color
+- `notificationCenterHeader.foreground` color
+- `notificationCenterHeader.background` color
+- `notifications.foreground` color
+- `notifications.background` color
+- `notifications.border` color
+- `notificationLink.foreground` color
 
 ## [1.0.9] - 2018-01-08
 
