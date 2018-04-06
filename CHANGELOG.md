@@ -6,6 +6,11 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) a
 
 ## [Unreleased]
 
+## [1.1.2] - 2018-04-06
+
+### Added
+- `editorHint.foreground` color
+
 ## [1.1.1] - 2018-03-26
 
 ### Added
