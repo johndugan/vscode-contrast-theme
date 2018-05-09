@@ -6,6 +6,11 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) a
 
 ## [Unreleased]
 
+## [1.1.3] - 2018-05-09
+
+### Added
+- `editorIndentGuide.activeBackground` color
+
 ## [1.1.2] - 2018-04-06
 
 ### Added
