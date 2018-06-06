@@ -35,6 +35,14 @@ Use whatever font you fancy. I fancy [Source Code Pro](https://fonts.google.com/
 
 ![Screenshot of editor black color swatch in Contrast](images/swatch_blacks.png?raw=true "Editor black color swatch in Contrast")
 
+### Editor
+
+![Screenshot of the VS Code Editor in Contrast](images/editor_01.png?raw=true "Editor with sidebar open in Contrast")
+
+![Screenshot of the VS Code Editor in Contrast](images/editor_02.png?raw=true "Multiple editors in Contrast")
+
+![Screenshot of the VS Code Editor in Contrast](images/editor_03.png?raw=true "Find feature in Contrast")
+
 ### HTML
 
 ![Screenshot of HTML in Contrast](images/html_01.png?raw=true "HTML in Contrast")

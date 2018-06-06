@@ -6,6 +6,15 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) a
 
 ## [Unreleased]
 
+## [1.1.4] - 2018-06-06
+
+### Added
+- `list.errorForeground` color
+- `list.warningForeground` color
+
+### Changed
+- Added editor screenshots to README
+
 ## [1.1.3] - 2018-05-09
 
 ### Added

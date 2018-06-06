@@ -34,6 +34,8 @@
         "list.focusBackground": "#191919",
         "list.dropBackground": "#333332",
         "list.highlightForeground": "#F8F8F2",
+        "list.errorForeground": "#F3002B",
+        "list.warningForeground": "#F3C900",
 
     // Activity Bar
 
