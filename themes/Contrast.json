@@ -181,6 +181,13 @@
         "statusBarItem.hoverBackground": "#0B0B0B",
         "statusBarItem.activeBackground": "#000000",
 
+    // Title Bar
+
+        "titleBar.activeBackground": "#191919",
+        "titleBar.activeForeground": "#878787",
+        "titleBar.inactiveBackground": "#191919",
+        "titleBar.inactiveForeground": "#878787",
+
     // Notification Dialog
 
         "notificationCenterHeader.foreground": "#B2B2B1",

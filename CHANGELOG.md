@@ -6,6 +6,14 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) a
 
 ## [Unreleased]
 
+## [1.1.5] - 2018-07-16
+
+### Added
+- `titleBar.activeBackground` color
+- `titleBar.activeForeground` color
+- `titleBar.inactiveBackground` color
+- `titleBar.inactiveForeground` color
+
 ## [1.1.4] - 2018-06-06
 
 ### Added
