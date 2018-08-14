@@ -1,45 +1,45 @@
 {
-	"name": "contrast-theme",
-	"displayName": "Contrast Theme",
-	"description": "Blissful editing for VS Code",
-	"version": "1.1.5",
-	"publisher": "johndugan",
-	"license": "SEE LICENSE IN LICENSE.md",
-	"engines": {
-		"vscode": "^1.8.1"
-	},
-	"categories": [
-		"Themes"
-	],
-	"keywords": [
-		"contrast",
-		"theme"
-	],
-	"icon": "images/icon.png",
-	"galleryBanner": {
-		"color": "#191919",
-		"theme": "dark"
-	},
-	"homepage": "https://github.com/johndugan/vscode-contrast-theme/blob/master/README.md",
-	"contributes": {
-		"themes": [
-			{
-				"label": "Contrast",
-				"uiTheme": "vs-dark",
-				"path": "./themes/Contrast.json"
-			}
-		]
-	},
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/johndugan/vscode-contrast-theme"
-	},
-	"bugs": {
-		"url": "https://github.com/johndugan/vscode-contrast-theme/issues"
-	},
-	"__metadata": {
-		"id": "01db0117-0344-42fe-a2b3-4619d77e9464",
-		"publisherDisplayName": "John Dugan",
-		"publisherId": "a421f23c-71b0-43c6-9815-26640497ecaa"
-	}
+    "name": "contrast-theme",
+    "displayName": "Contrast Theme",
+    "description": "Blissful editing for VS Code",
+    "version": "1.1.6",
+    "publisher": "johndugan",
+    "license": "SEE LICENSE IN LICENSE.md",
+    "engines": {
+        "vscode": "^1.8.1"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "keywords": [
+        "contrast",
+        "theme"
+    ],
+    "icon": "images/icon.png",
+    "galleryBanner": {
+        "color": "#191919",
+        "theme": "dark"
+    },
+    "homepage": "https://github.com/johndugan/vscode-contrast-theme/blob/master/README.md",
+    "contributes": {
+        "themes": [
+            {
+                "label": "Contrast",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Contrast.json"
+            }
+        ]
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/johndugan/vscode-contrast-theme"
+    },
+    "bugs": {
+        "url": "https://github.com/johndugan/vscode-contrast-theme/issues"
+    },
+    "__metadata": {
+        "id": "01db0117-0344-42fe-a2b3-4619d77e9464",
+        "publisherDisplayName": "John Dugan",
+        "publisherId": "a421f23c-71b0-43c6-9815-26640497ecaa"
+    }
 }

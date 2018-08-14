@@ -237,7 +237,23 @@
         "gitDecoration.deletedResourceForeground": "#F3002B",
         "gitDecoration.untrackedResourceForeground": "#00F3C9",
         "gitDecoration.ignoredResourceForeground": "#8C8C8A",
-        "gitDecoration.conflictingResourceForeground": "#FF41C1"
+        "gitDecoration.conflictingResourceForeground": "#FF41C1",
+
+    // Breadcrumbs
+
+        "breadcrumb.foreground": "#6D6D6D",
+        "breadcrumb.focusForeground": "#8C8C8A",
+        "breadcrumb.activeSelectionForeground": "#D0D0D0",
+        "breadcrumbPicker.background": "#292928",
+
+    // Menu
+
+        "menu.background": "#292928",
+        "menu.foreground": "#8C8C8A",
+        "menu.selectionBackground": "#191919",
+        "menu.selectionForeground": "#D0D0D0",
+        "menubar.selectionBackground": "#292928",
+        "menubar.selectionForeground": "#D0D0D0"
 
     },
     "tokenColors": [

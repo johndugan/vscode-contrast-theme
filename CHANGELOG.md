@@ -6,6 +6,14 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) a
 
 ## [Unreleased]
 
+## [1.1.6] - 2018-08-14
+
+### Added
+- `breadcrumb.*` colors
+- `breadcrumbPicker.background` color
+- `menu.*` colors
+- `menuBar.*` colors
+
 ## [1.1.5] - 2018-07-16
 
 ### Added
