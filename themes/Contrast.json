@@ -958,19 +958,29 @@
         {
             "name": "Beginning Markup (`1.`, `-`, `>`, etc.)",
             "scope": [
-                "markup beginning.punctuation"
+                "punctuation.definition.quote.begin.markdown",
+                "punctuation.definition.list.begin.markdown"
+            ],
+            "settings": {
+                "foreground": "#C9E9E0"
+            }
+        },
+        {
+            "name": "Fenced Markup (`*`, `**`, `_`, ```, etc.)",
+            "scope": [
+                "markup punctuation"
             ],
             "settings": {
                 "foreground": "#FF5E5E"
             }
         },
         {
-            "name": "Inline Markup (`*`, `**`, `_`, etc.)",
+            "name": "Fenced Code block (code inside ```)",
             "scope": [
-                "markup punctuation"
+                "markup.fenced_code.block.markdown"
             ],
             "settings": {
-                "foreground": "#B2B2B1"
+                "foreground": "#C9E9E0"
             }
         },
         {
@@ -979,7 +989,7 @@
                 "string.other.link"
             ],
             "settings": {
-                "foreground": "#C9E9E0"
+                "foreground": "#8CDAFF"
             }
         },
         {
@@ -1017,16 +1027,6 @@
             "settings": {
                 "foreground": "#B2B2B1"
             }
-        },
-        {
-            "name": "Code Block (```)",
-            "scope": [
-                "markup.fenced_code punctuation"
-            ],
-            "settings": {
-                "foreground": "#B8FCB1"
-            }
         }
-
     ]
 }
