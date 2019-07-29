@@ -1,0 +1,9 @@
+{
+    "[json]": {
+        "editor.formatOnSave": false,
+        "editor.rulers": [80] // equal to `prettier.printWidth`
+    },
+    "files.associations": {
+        "Contrast.json": "jsonc"
+    }
+}

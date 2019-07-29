@@ -180,6 +180,8 @@
         "statusBar.noFolderBackground": "#191919",
         "statusBarItem.hoverBackground": "#0B0B0B",
         "statusBarItem.activeBackground": "#000000",
+        "statusBarItem.remoteForeground": "#878787",
+        "statusBarItem.remoteBackground": "#191919",
 
     // Title Bar
 
@@ -522,6 +524,18 @@
             "scope": [
                 "meta.tag.metadata.script entity.name.tag",
                 "meta.tag.metadata.script punctuation.definition.tag"
+            ],
+            "settings": {
+                "foreground": "#B8FCB1"
+            }
+        },
+        {
+            "name": "Single File Compenent Tags (`<template>`, `<script>`, `<style>`)", // .vue files
+            "scope": [
+                // "entity.name.tag.template.html",
+                // "entity.name.tag.script.html"
+                // "entity.name.tag.style.html"
+
             ],
             "settings": {
                 "foreground": "#B8FCB1"

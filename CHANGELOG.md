@@ -6,6 +6,12 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) a
 
 ## [Unreleased]
 
+## [1.1.7] - 2019-07-29
+
+### Added
+- `statusBarItem.remoteForeground` color
+- `statusBarItem.remoteBackground` color
+
 ## [1.1.6] - 2018-08-14
 
 ### Added
