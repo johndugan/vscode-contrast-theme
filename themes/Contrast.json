@@ -276,6 +276,15 @@
             }
         },
         {
+            "name": "Keyword",
+            "scope": [
+                "keyword"
+            ],
+            "settings": {
+                "foreground": "#FF5E5E"
+            }
+        },
+        {
             "name": "String",
             "scope": [
                 "string.quoted"
