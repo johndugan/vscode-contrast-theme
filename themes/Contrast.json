@@ -274,16 +274,7 @@
             "settings": {
                 "foreground": "#6D6D6D"
             }
-        },
-        {
-            "name": "Keyword",
-            "scope": [
-                "keyword"
-            ],
-            "settings": {
-                "foreground": "#FF5E5E"
-            }
-        },
+        },        
         {
             "name": "String",
             "scope": [
@@ -943,7 +934,7 @@
             }
         },
         {
-            "name": "Language Constate (`NULL`)",
+            "name": "Language Constant (`NULL`)",
             "scope": [
                 "keyword.other.DDL.create.II.sql"
             ],
@@ -1035,6 +1026,18 @@
             ],
             "settings": {
                 "foreground": "#B2B2B1"
+            }
+        },
+
+// Docker
+
+        {
+            "name": "Keyword (`FROM`, `COPY`, `CMD`, etc.)",
+            "scope": [
+                "keyword.other.special-method.dockerfile"
+            ],
+            "settings": {
+                "foreground": "#FF5E5E"
             }
         }
     ]

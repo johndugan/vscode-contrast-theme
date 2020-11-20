@@ -6,6 +6,14 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) a
 
 ## [Unreleased]
 
+## [1.1.10] - 2020-11-19
+
+### Added
+- Add more specific `keyword` color scoped to Docker
+
+### Removed
+- Remove global `keyword` color as it had unintended consquences
+
 ## [1.1.9] - 2020-11-18
 
 ### Added
